@@ -1,6 +1,6 @@
 # personalSite
 
-first attempt as a README file.
+first attempt at a README file.
 
 I'm adding my personal site to GitHub. 
 
