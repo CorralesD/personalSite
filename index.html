@@ -1,0 +1,163 @@
+<DOCTYPE! html>
+    
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diego Corrales</title>
+    
+    <link href="bower_components/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+<!--    <link href="styles.css" rel="stylesheet" />-->
+    <link href="bower_components/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" />
+    <script src="bower_components/jQuery/dist/jquery.js"></script>
+    <script src="bower_components/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+</head>    
+    
+<body>
+        <div id="wrapper">
+            <div id="banner">
+                <header>
+                    <div id="innerHeader">
+                        <a href="#" id="logo" title="Diego Corrales"></a>
+                        <nav>
+                            <a href="#" id="menuIcon"></a>
+                            <ul>
+                                <li> <a href="index.html" class="current">Home</a> </li>
+                                <li> <a href="#">About Me</a> </li>
+                                <li> <a href="#">Projects</a> </li>
+                                <li> <a href="#">Skills</a> </li>
+                                <li> <a href="#">Contact</a> </li>
+                                <li> <a href="#">My Resume</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+<!--- Slider -->
+                <script src="bower_components/jquery.bxslider/jquery.bxslider.min.js"></script>
+                <div class="slideWrap">
+                    <section class="slider">
+                        <ul class="slider1">
+                            <li> <img src="img/projectPics/Screen%20Shot%202017-02-10%20at%2011.26.12%20AM.png" /> </li>
+                            <li> <img src="img/projectPics/Screen%20Shot%202017-02-10%20at%2011.27.47%20AM.png" /> </li>
+                            <li> <img src="img/projectPics/Screen%20Shot%202017-04-17%20at%203.33.38%20PM.png" /> </li>
+                            <li> <img src="img/projectPics/Screen%20Shot%202017-04-17%20at%203.34.00%20PM.png" /> </li>
+                        </ul>
+                    </section>
+                </div>
+                <script type="text/javascript">
+                    $('.slider1').bxSlider({
+                        mode : 'fade',
+                        captions : false,
+                        auto : true,
+                        pager : false                        
+                    });
+                    $('.slider2').bxSlider({
+                        pager : false,
+                        captions : true,
+                        maxSlides : 3,
+                        minSlides : 1,
+                        slideWidth : 230,
+                        slideMargin : 10                            
+                    });
+                    $('.slider3').bxSlider({
+                        mode : 'fade',
+                        captions : false,
+                        auto : true,
+                        pager : false,
+                        controls : false
+                    });                
+                </script>
+
+<!--- Slider End -->
+        </div>
+            
+<!--- Icons -->
+            <section class="oneThird">
+                <div class="iconWrap">
+                    <td><img src="img/icons/responsiveWebDesign.png" width="200"/></td>
+                </div>
+                <h3>Development</h3>
+            </section>
+            <section class="oneThird">
+                <div class="iconWrap">
+                    <td><img src="img/icons/Code-Optimization.png" width="150"/></td>
+                </div>
+                <h3>Technologies</h3>
+            </section>
+            <section>
+                <div class="iconWrap">
+                    <td><img src="img/icons/gear-6.png" width="125" /></td>
+                    <h3>Tools</h3>
+                </div>
+            </section>
+<!--- End Icons -->
+            
+<!--- About Me -->
+            <section class="leftCol">
+                <p>Full stack web developer motivated by hard work and the passion for building things. Valued collaborator with a knack for analyzing data and prioritizing tasks to achieve consistent results. Focused drive for professional excellence and a thirst for knowledge.</p>
+            </section>
+            <section class="sidebar">
+                <img src="img/stockPics/pexels-photo-300001.jpeg" width=100%/>
+            </section>
+<!--- End About Me -->
+            
+<!-- Projects -->
+            <secion class="oneThirdPadding"> 
+                <h3>Gallery / Fashion Blog</h3>
+                <h5>San Diego, CA. March 2017</h5>
+                <h6>Technologies Used:   HTML, CSS, jQuery, Heroku
+                    <a href="www.haveyoumadethelist.com">haveyoumadethelist.com</a></h6>
+                <img src="img/projectPics/Screen%20Shot%202017-03-22.png" width=50% />
+                <p>Worked on with a local "InstaFashion" Blogger and built a custom, responsive website to post looks and blog about the latest trends in Men's Fashion.</p>
+            </secion>
+            <secion class="oneThirdPadding"> 
+                <h3>Vuori - Information Handoff</h3>
+                <h5>Carlsbad, CA. February 2017
+github.com/VuoriOCAproject</h5>
+                <h6>Technologies Used:   React, Express, Node, PostgreSQL, JSON, FTP, OAuth2, ERP, ETL, Lightspeed Retail API.</h6>
+                <img src="img/projectPics/Screen%20Shot%202017-02-10%20at%2011.27.47%20AM.png" width=50% />
+                <p>Worked on a team to develop a custom CMS for a local eCommerce apparel brand.
+Our task was to access an FTP site to extract and transform CSV data files from an ERP and hit specific endpoints on their point of sale (POS) system’s API to load the data into one database to be accessed via custom UI. Responsible for the ETL process and mastering the documentation for the API.</p>
+            </secion>
+            <secion class="oneThirdPadding"> 
+                <h3>ListIt App</h3>
+                <h5>San Diego, CA. December 2016</h5>
+                <h6>Technologies used:   Angular, Microsoft SQL Server, ASP.NET WEB API, Entity Framework, C#, Bootstrap, JSON, LINQ, Animate.CSS, Toastr, Filepicker, Auth, Bower, Gulp, GitKraken, Trello.</h6>
+                <img src="img/stockPics/black-and-white-man-person-hands.jpg" width=50% />
+                <p>ListIt   -  github.com/ListIt
+Full-stack web development project focused on the fundamentals and best practices. As a group built a web application to help users buy and sell items locally.</p>
+            </secion>
+            
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div> <!--- End of Wrapper -->
+</body>
+    
+    
+</html>
