@@ -1,4 +1,4 @@
-# personalSite
+# Personal Site
 
 first attempt at a README file.
 
